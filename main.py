@@ -34,5 +34,9 @@ while True:
         genre = str(input("Enter a song genre: "))
         p.add_song(name)
 
+    elif choice == 2:
+        name = str(input("Enter a song name: "))
+        p.remove_song(name)
+
     elif choice == 3:
         p.display()
